@@ -1,11 +1,10 @@
 package com.diddys;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 //REMEMBER sout , soutv, itar. Quick ways to make a print statment and iteration
 
-public class Testing {
+public class Calc {
 
     public static String getType(Object variable) {
         return variable == null ? "null" : variable.getClass().getSimpleName();
@@ -21,7 +20,7 @@ public class Testing {
         System.out.println("HEY ITS TESTING");
         Scanner scanner = new Scanner(System.in); //create a new scanner
 
-        int abeset = 1
+        int abeset = 1;
 
         System.out.print("Enter your expression: ");
         //String expression = scanner.nextLine();
